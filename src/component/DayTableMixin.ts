@@ -320,7 +320,7 @@ export default class DayTableMixin extends Mixin implements DayTableInterface {
 			'fc-day-header',
 			view.calendar.theme.getClass('widgetHeader')
 		];
-		var innerHtml = htmlEscape(date.format(t.colHeadFormat));
+		var innerHtml = htmlEscape(date.format(t.colHeadFormat.day));
 
 		// if only one row of days, the classNames on the header can represent the specific days beneath
 		if (t.rowCnt === 1) {
