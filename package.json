@@ -61,7 +61,7 @@
     "moment-timezone": "^0.5.5",
     "native-promise-only": "^0.8.1",
     "phantomjs-prebuilt": "^2.1.7",
-    "socket.io": "1.4.5",
+    "socket.io": "2.5.1",
     "tslib": "^1.8.0",
     "tslint": "^5.8.0",
     "typescript": "^2.6.1",
